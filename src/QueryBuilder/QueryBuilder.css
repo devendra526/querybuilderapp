@@ -1,0 +1,53 @@
+.query-rule {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    margin: 6px 0;
+  }
+  
+  .operator-popup-wrapper {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .operator-button {
+    padding: 4px 8px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .operator-popup {
+    position: absolute;
+    top: -100%;
+    left: 0;
+    background-color: white;
+    border: 1px solid #ccc;
+    display: flex;
+    gap: 5px;
+    padding: 5px;
+    z-index: 1000;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .popup-btn {
+    background: #eee;
+    border: 1px solid #ccc;
+    padding: 2px 6px;
+    cursor: pointer;
+    font-size: 12px;
+  }
+  
+  .rule-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+  
+  .query-group {
+    border-left: 2px solid #ccc;
+    margin-left: 10px;
+    padding-left: 10px;
+  }
